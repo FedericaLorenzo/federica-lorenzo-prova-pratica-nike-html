@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carrello</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="../style.css" />
+  <script src="carrello.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav id="pre-menu">
+      <div id="logos">
+        <a href="#"> <img src="../media/jordan-icon.png" alt="" /></a>
+        <a href="#"> <img src="../media/converse-icon.png" alt="" /></a>
+      </div>
+      <div id="top-links">
+        <ul>
+          <li><a href="#">Trova un negozio</a></li>
+          <li><a href="#">Aiuto</a></li>
+          <li><a href="#">Unisciti a noi</a></li>
+          <li><a href="#">Accedi</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="box-menu">
+      <div id="logo"><a href="../home/home.html"> <img src="../media/logo.png" alt="" /></a></div>
+      <div id="menu">
+        <nav>
+          <ul>
+            <li><a href="#">Novità e in evidenza</a></li>
+            <li><a href="#">Uomo</a></li>
+            <li><a href="#">Donna</a></li>
+            <li><a href="#">Bambini</a></li>
+            <li><a href="#">Outlet</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="menu-buttons">
+        <div id="search-box">
+          <input type="text" id="search" placeholder="Cerca" />
+          <button><i class="fa fa-search " aria-hidden="true"></i></button>
+        </div>
+        <i class="fa fa-heart-o" aria-hidden="true"></i>
+        <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+      </div>
+    </div>
+  </header>
+  <div class="banner">
+    <p>Nuovi arrivi</p>
+    <p><a href="#">Acquista</a></p>
+  </div>
+  <div class="cart-page">
+    <div class="left">
+      <div id="cart-banner">
+        <h2>Spedizione Gratuita per i member.</h2>
+        <p>
+          Diventa member Nike e approfitta della spedizione rapida e gratuita.
+          <a href="#">Unisciti a noi</a> o <a href="#">Accedi</a>
+        </p>
+      </div>
+      <div class="products-overview">
+        <h1>Carrello</h1>
+        <div>
+          <div class="cart-item">
+            <div class="cart-product">
+              <div class="cart-img"><a href="../pagina-prodotto/prodotto.html">
+                  <img src="../pagina-prodotto/Scarpa/1-q.jpg" alt="Nike Dunk Low - Uomo Black" /></a>
+              </div>
+              <div class="cart-data">
+                <h3><a href="../pagina-prodotto/prodotto.html">Nike Dunk Low</a></h3>
+                <p>Scarpa-Uomo</p>
+                <p>Bianco/Nero</p>
+                <span>Taglia/misura: <select>
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                    <option value="41" selected="selected">41</option>
+                    <option value="42">42</option>
+                  </select></span>
+                <span>Quantità: <select class="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select></span>
+                <div class="cart-icons">
+                  <i class="fa fa-gift" aria-hidden="true"></i>
+                  <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  <i class="fa fa-trash-o bin" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="cart-price">
+                <span>119.99 €</span>
+              </div>
+            </div>
+            <h4>Ritiro gratuito</h4>
+            <h4><a href="#">Trova un negozio</a></h4>
+          </div>
+
+          <div class="cart-item">
+            <div class="cart-product">
+              <div class="cart-img">
+                <img src="../pagina-prodotto/Scarpa_2/6-q.jpg" alt="Nike Dunk Low - Donna Olive" />
+              </div>
+              <div class="cart-data">
+                <h3><a href="../pagina-prodotto/prodotto.html">Nike Dunk Low</a></h3>
+                <p>Scarpa-Donna</p>
+                <p>Bianco/Bianco/Medium Olive</p>
+                <span>Taglia/misura: <select>
+                    <option value="36">36</option>
+                    <option value="37" selected="selected">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                  </select></span>
+                <span>Quantità: <select class="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select></span>
+                <div class="cart-icons">
+                  <i class="fa fa-gift" aria-hidden="true"></i>
+                  <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  <i class="fa fa-trash-o bin" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="cart-price">
+                <span>94.99 €</span>
+              </div>
+            </div>
+            <h4>Ritiro gratuito</h4>
+            <h4><a href="#">Trova un negozio</a></h4>
+          </div>
+          <div class=favourites>
+            <h2>Preferiti</h2>
+            <p>Vuoi visualizzare i preferiti?</p>
+            <p><a href="#">Unisciti a noi</a> o <a href="#">Accedi</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="right riepilogo">
+      <h2>Riepilogo</h2>
+      <p>Hai un codice promozionale?</p>
+      <div><span>Subtotale</span> <span class="summary-price">119.99 €</span></div>
+      <div><span>Costi di spedizione e gestione previsti</span>
+        <span>Gratis</span>
+        <div class="totale"><span>Totale</span>
+          <span class="summary-price">119.99 €</span>
+        </div>
+      </div>
+
+      <a href="../checkout/checkout.html"><button class="large-button black">Vai al pagamento</button></a>
+      <button class="large-button white"><img src="media/paypal.png" alt=""></button>
+    </div>
+</body>
+
+</html>

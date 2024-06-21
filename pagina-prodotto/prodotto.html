@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>pagina prodotto</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <script src="prodotto.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <nav id="pre-menu">
+      <div id="logos">
+        <a href="#"> <img src="../media/jordan-icon.png" alt="" /></a>
+        <a href="#"> <img src="../media/converse-icon.png" alt="" /></a>
+      </div>
+      <div id="top-links">
+        <ul>
+          <li><a href="#">Trova un negozio</a></li>
+          <li><a href="#">Aiuto</a></li>
+          <li><a href="#">Unisciti a noi</a></li>
+          <li><a href="#">Accedi</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="box-menu">
+      <div id="logo"><a href="../home/home.html"> <img src="../media/logo.png" alt="" /></a></div>
+      <div id="menu">
+        <nav>
+          <ul>
+            <li><a href="#">Novità e in evidenza</a></li>
+            <li><a href="#">Uomo</a></li>
+            <li><a href="#">Donna</a></li>
+            <li><a href="#">Bambini</a></li>
+            <li><a href="#">Outlet</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="menu-buttons">
+        <div id="search-box">
+          <input type="text" id="search" placeholder="Cerca" />
+          <button><i class="fa fa-search" aria-hidden="true"></i></button>
+        </div>
+        <i class="fa fa-heart-o" aria-hidden="true"></i>
+        <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+      </div>
+    </div>
+  </header>
+
+  <div class="product-page">
+    <div class="banner">
+      <p>Nuovi arrivi</p>
+      <p><a href="#">Acquista</a></p>
+    </div>
+    <div id="cart-overlay">
+      <div id="cart-popup">
+        <h2>Aggiunto al carrello</h2>
+        <p id="cart-popup-close">X</p>
+        <div id="cart-container">
+          <div id="thumbnail-cart"><img src="Scarpa/1-q.jpg" alt="" /></div>
+          <div id="cart-details">
+            <h3>Nike Dunk Low</h3>
+            <p>Scarpa - Uomo</p>
+            <p>Taglia/misura EU</p>
+            <span class="price">119.99€</span>
+          </div>
+        </div>
+        <button> <a href="../carrello/carrello.html">Visualizza carrello (1)</a></button>
+        <button><a href="../checkout/checkout.html">Pagamento</a></button>
+      </div>
+    </div>
+
+    <div class="product-view">
+
+      <div class="left">
+        <div id="thumbnails-container">
+          <div class="thumbnail active" data-index="0">
+            <img src="Scarpa/quadrate/scarpa-dunk-low-q1.png" alt="" />
+          </div>
+          <div class="thumbnail" data-index="1">
+            <video src="Scarpa/video.mp4"></video>
+          </div>
+          <div class="thumbnail" data-index="2">
+            <img src="Scarpa/quadrate/scarpa-dunk-low-q2.png" alt="" />
+          </div>
+          <div class="thumbnail" data-index="3">
+            <img src="Scarpa/quadrate/scarpa-dunk-low-q3.png" alt="" />
+          </div>
+          <div class="thumbnail" data-index="4">
+            <img src="Scarpa/quadrate/scarpa-dunk-low-q4.png" alt="" />
+          </div>
+          <div class="thumbnail" data-index="5">
+            <img src="Scarpa/quadrate/scarpa-dunk-low-q5.png" alt="" />
+          </div>
+          <div class="thumbnail" data-index="6">
+            <img src="Scarpa/quadrate/scarpa-dunk-low-q6.png" alt="" />
+          </div>
+          <div class="thumbnail" data-index="7">
+            <img src="Scarpa/quadrate/scarpa-dunk-low-q7.png" alt="" />
+          </div>
+          <div class="thumbnail" data-index="8">
+            <img src="Scarpa/quadrate/scarpa-dunk-low-q8.png" alt="" />
+          </div>
+          <div class="thumbnail" data-index="9">
+            <img src="Scarpa/quadrate/scarpa-dunk-low-q9.png" alt="" />
+          </div>
+        </div>
+
+        <div id="photo-big-container">
+          <div id="photo-big">
+            <img data-index="0" class="slide active" src="Scarpa/1.jpg" alt="" />
+            <video data-index="1" muted class="slide" src="Scarpa/video.mp4"></video>
+            <img data-index="2" class="slide" src="Scarpa/2.jpg" alt="" />
+            <img data-index="3" class="slide" src="Scarpa/3.jpg" alt="" />
+            <img data-index="4" class="slide" src="Scarpa/4.jpg" alt="" />
+            <img data-index="5" class="slide" src="Scarpa/5.jpg" alt="" />
+            <img data-index="6" class="slide" src="Scarpa/6.jpg" alt="" />
+            <img data-index="7" class="slide" src="Scarpa/7.jpg" alt="" />
+            <img data-index="8" class="slide" src="Scarpa/8.jpg" alt="" />
+            <img data-index="9" class="slide" src="Scarpa/9.jpg" alt="" />
+          </div>
+
+          <button id="rating-button">Valutazione Alta</button>
+
+          <div class="button-group">
+            <button id="prev" class="round">
+              <i class="fa fa-angle-left fa-2x" aria-hidden="true"></i>
+            </button>
+            <button id="next" class="round">
+              <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="right">
+        <h1>Nike Dunk Low Retro</h1>
+        <h2>Scarpa - Uomo</h2>
+        <p class="price">119.99€</p>
+
+        <form>
+          <fieldset>
+            <div id="form-titles">
+              <span>Seleziona la taglia/misura</span>
+              <span>Guida alle taglie e alle misure</span>
+            </div>
+            <div id="size-choice">
+              <input type="radio" name="size" id="35.5" />
+              <label for="35.5">EU 35.5</label>
+              <input type="radio" name="size" id="36" />
+              <label for="36">EU 36</label>
+              <input type="radio" name="size" id="36.5" />
+              <label for="36.5">EU 36.5</label>
+              <input type="radio" name="size" id="37" />
+              <label for="37">EU 37</label>
+              <input type="radio" name="size" id="37.5" />
+              <label for="37.5">EU 37.5</label>
+              <input type="radio" name="size" id="38" />
+              <label for="38">EU 38</label>
+              <input type="radio" name="size" id="38.5" />
+              <label for="38.5">EU 38.5</label>
+              <input type="radio" name="size" id="39" />
+              <label for="39">EU 39</label>
+              <input type="radio" name="size" id="39.5" />
+              <label for="39.5">EU 39.5</label>
+              <input type="radio" name="size" id="40" />
+              <label for="40">EU 40</label>
+              <input type="radio" name="size" id="40.5" />
+              <label for="40.5">EU 40.5</label>
+              <input type="radio" name="size" id="41" />
+              <label for="41">EU 41</label>
+              <input type="radio" name="size" id="41.5" />
+              <label for="41.5">EU 41.5</label>
+              <input type="radio" name="size" id="42" />
+              <label for="42">EU 42</label>
+              <input type="radio" name="size" id="42.5" />
+              <label for="42.5">EU 42.5</label>
+            </div>
+            <button class="large-button black" id="add-cart">
+              Aggiungi al carrello
+            </button>
+            <button class="large-button white" id="add-favourites">
+              Aggiungi ai preferiti
+            </button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+
+<!-- 8/10 -->
